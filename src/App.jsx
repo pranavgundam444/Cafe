@@ -7,7 +7,7 @@ import HomePage from "./Components/Home";
 import AboutPage from "./Components/About";
 import MenuPage from "./Components/Menu";
 import Contact from "./Components/Contact";
-import Reserve from "./Components/reserve";
+import Reserve from "./Components/Reserve";
 
 function App() {
   return (
