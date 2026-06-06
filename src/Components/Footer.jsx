@@ -10,7 +10,7 @@ export default function Footer({ setActivePage }) {
         {/* Brand */}
         <div className="md:col-span-2">
           <div className="font-playfair text-cream text-2xl font-bold mb-3">
-            Brew<span className="text-caramel italic">Haven</span>
+            Kapi<span className="text-caramel italic">Cafe</span>
           </div>
           <p className="text-cream/40 text-sm leading-relaxed font-light max-w-xs">
             A craft café rooted in community, quality, and the belief that the best conversations happen over good coffee.
@@ -60,7 +60,7 @@ export default function Footer({ setActivePage }) {
       </div>
 
       <div className="border-t border-cream/5 px-10 py-4 flex flex-col md:flex-row justify-between items-center gap-2">
-        <p className="text-cream/25 text-xs">© 2024 BrewHaven Café · Hyderabad · All rights reserved</p>
+        <p className="text-cream/25 text-xs">© 2024 KapiCafe Café · Hyderabad · All rights reserved</p>
         <p className="text-cream/25 text-xs">Made with ☕ and good intentions</p>
       </div>
     </footer>
