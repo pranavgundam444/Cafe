@@ -29,7 +29,7 @@ export default function Reserve() {
       return;
     }
 
-    toast.success("🎉 Reservation Successful! Your table has been reserved.", {
+    toast.success("Table reserved successfully. We look forward to welcoming you", {
       position: "top-center",
     });
 
