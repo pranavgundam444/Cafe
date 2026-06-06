@@ -1,4 +1,4 @@
-import SectionLabel from "../components/SectionLabel";
+import SectionLabel from "./SectionLabel";
 
 const categories = [
   {
