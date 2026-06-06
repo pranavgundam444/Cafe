@@ -101,7 +101,7 @@ export default function Navbar() {
           ))}
 
           <button
-            onClick={() => navigate("/contact")}
+            onClick={() => navigate("/reserve")}
             className="mt-2 bg-caramel text-white text-sm font-bold tracking-widest uppercase px-6 py-2 rounded-sm"
           >
             Reserve a Table
