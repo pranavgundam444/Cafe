@@ -1,4 +1,4 @@
-import SectionLabel from "../components/SectionLabel";
+import SectionLabel from "./SectionLabel";
 import { useNavigate } from "react-router-dom";
 
 const highlights = [
