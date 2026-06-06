@@ -5,7 +5,7 @@ const links = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
   { label: "Menu", path: "/menu" },
-//   { label: "Contact", path: "/contact" },
+  { label: "Contact", path: "/contact" },
 ];
 
 export default function Navbar() {
@@ -58,11 +58,11 @@ export default function Navbar() {
 
       {/* Desktop Button */}
       <button
-        onClick={() => navigate("/contact")}
-        className="hidden md:block bg-caramel text-cream-light text-sm font-bold tracking-widest uppercase px-5 py-2 rounded-sm"
-      >
-        Reserve a Table
-      </button>
+  onClick={() => navigate("/reserve")}
+  className="hidden md:block bg-caramel text-cream-light text-sm font-bold tracking-widest uppercase px-5 py-2 rounded-sm"
+>
+  Reserve a Table
+</button>
 
       {/* Mobile Hamburger */}
 
