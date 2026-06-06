@@ -74,7 +74,7 @@ export default function Reserve() {
       {/* Info Cards */}
       <section className="max-w-6xl mx-auto px-5 -mt-16 relative z-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-          <InfoCard icon={<Users />} title="Table Size" text="Choose from 2 to 6 guests." />
+          <InfoCard icon={<Users />} title="Table Size" text="Choose from 1 to 6 guests." />
           <InfoCard icon={<Clock />} title="Cafe Timings" text="Open daily from 9 AM to 11 PM." />
           <InfoCard icon={<Calendar />} title="Easy Booking" text="Reserve your table in advance." />
         </div>
@@ -116,6 +116,7 @@ export default function Reserve() {
                   className="w-full border border-[#d8b895] bg-white rounded-xl px-4 py-3 outline-none focus:border-[#b8793a] text-[#3b2417]"
                 >
                   <option value="">Select Table Size</option>
+                  <option value="2">1 Person</option>
                   <option value="2">2 Persons</option>
                   <option value="3">3 Persons</option>
                   <option value="4">4 Persons</option>
