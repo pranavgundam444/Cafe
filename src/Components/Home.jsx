@@ -245,17 +245,17 @@ export default function HomePage({ setActivePage }) {
         <div>
           <SectionLabel>A Place To Pause</SectionLabel>
 
-          <h2 className="font-playfair text-5xl text-[#2B170A] leading-tight mb-7">
+          <h2 className="font-playfair text-5xl !text-[#2B170A] leading-tight mb-7">
             Built for slow mornings, warm evenings, and everything in between.
           </h2>
 
           <p className="text-[#7A5A3A] leading-loose mb-8">
-            BrewHaven is more than a coffee stop. It is a soft-lit space with
+            KapiCafe is more than a coffee stop. It is a soft-lit space with
             wooden tables, quiet corners, fresh aromas, and a team that
             remembers your usual order.
           </p>
 
-          <div className="space-y-4 mb-9">
+          <div className="space-y-4 mt-6 mb-9">
             {["Cozy seating", "Free Wi-Fi", "Fresh bakes daily"].map((item) => (
               <div key={item} className="flex items-center gap-3">
                 <span className="w-9 h-9 rounded-full bg-[#8B451F] text-white flex items-center justify-center">
